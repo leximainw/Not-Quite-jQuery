@@ -2,6 +2,7 @@ function $(query) {
     return document.querySelectorAll(query)
 }
 
-$.one = function(query) {
+$.first = function(query) {
     return document.querySelector(query)
 }
+
